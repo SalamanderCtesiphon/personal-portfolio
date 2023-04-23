@@ -25,7 +25,7 @@
   transform: translateX(20%) translateY(-140%);
 }
 
-img {
+#me {
   height: auto;
   width: 800px;
   transform: translateX(-29%);
@@ -70,4 +70,30 @@ img {
 .icons {
   width: 60px;
   height: auto;
+}
+
+.work-header {
+  font-size: 60px;
+  position: absolute;
+  top: 150%;
+  right: 32%;
+}
+
+.screen-shots {
+  width: 400px;
+  height: auto;
+  border: 1px solid black;
+  padding: 4px;
+}
+
+.work-card {
+  border: 1px solid black;
+  padding: 15px;
+  height: 450px;
+}
+
+.work-container {
+  position: absolute;
+  top: 200%;
+  right: 13%;
 }
