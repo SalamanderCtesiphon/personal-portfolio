@@ -5,10 +5,54 @@
   overflow: hidden;
 }
 
+
 .banner {
   background-color: #0891B2;
-  height: 110vh;
+  height: 120vh;
   width: 150vw;
-  transform: translateX(-24%) translateY(-25%) rotate(-15deg);
+  transform: translateX(-25%) translateY(-40%) rotate(-15deg);
+  box-shadow: 0px 0px 40px 5px rgba(88, 83, 83, 0.492);
+}
 
+.photo-container {
+  height: auto;
+  width: 500px;
+  overflow: hidden;
+  object-fit: cover;
+  position: absolute;
+  top: 100%;
+  right: 25%;
+  transform: translateX(20%) translateY(-140%);
+}
+
+img {
+  height: auto;
+  width: 800px;
+  transform: translateX(-29%);
+}
+
+.name {
+  width: 20vw;
+  text-align: left;
+  font-size: 60px;
+  font-weight: bolder;
+  color: white;
+  position: absolute;
+  top: 55%;
+  right: 70%;
+  text-shadow: 2px 2px 5px rgb(69, 66, 66);
+}
+
+.intro {
+  font-size: 60px;
+  position: absolute;
+  top: 75%;
+  right: 30%;
+}
+
+.intro-para {
+  font-size: 20px;
+  padding: 40px;
+  position: absolute;
+  top: 85%;
 }
