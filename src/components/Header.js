@@ -11,7 +11,7 @@ function Header() {
         
         </div>
         <div className='photo-container'>
-          <img src={terry} alt='me'></img>
+          <img id='me' src={terry} alt='me'></img>
         </div>
         <div className='name'>Shannon Brookshire</div>
         <h1 className='intro'>About me</h1>
