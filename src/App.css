@@ -59,4 +59,15 @@ img {
 
 .icon-container {
   position: absolute;
+  top: 135%;
+  right: 28%;
+  width: 40vw;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons {
+  width: 60px;
+  height: auto;
 }
