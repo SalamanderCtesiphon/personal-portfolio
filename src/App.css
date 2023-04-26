@@ -57,13 +57,13 @@
 }
 
 #last-name {
-  margin-left: -3vw;
+  margin-left: 0vw;
   margin-bottom: -10vh;
 }
 
 #title-one {
   margin-bottom: -10vh;
-  margin-left: -7vw;
+  margin-left: -5vw;
 }
 
 @media (max-width: 600px) {
@@ -73,7 +73,7 @@
 }
 
 #title-two {
- margin-left: 10vw;
+ margin-left: 12vw;
 }
 
 .section {
@@ -83,3 +83,4 @@
 .work-section {
   background-color: #001220;
 }
+
