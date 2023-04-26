@@ -1,5 +1,4 @@
 import React from 'react'
-import terry from "../images/terry davis big.jpg"
 import github from '../icons/github-original-wordmark.svg'
 import linked from '../icons/linkedin-original.svg'
 import twit from '../icons/twitter-original.svg'
@@ -11,7 +10,6 @@ function Header() {
         
         </div>
         <div className='photo-container'>
-          <img id='me' src={terry} alt='me'></img>
         </div>
         <div className='name'>Shannon Brookshire</div>
         <h1 className='intro'>About me</h1>
