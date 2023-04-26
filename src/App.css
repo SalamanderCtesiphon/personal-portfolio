@@ -10,7 +10,12 @@
   background-color: #001220;
   color: white;
   border-bottom: 1px solid rgba(128, 128, 128, 0.318);
+  height: 7vh;
+  position: absolute;
 }
+
+
+
 
 #hero-background {
   object-fit: cover;
@@ -58,6 +63,7 @@
 
 #title-one {
   margin-bottom: -10vh;
+  margin-left: -7vw;
 }
 
 @media (max-width: 600px) {
@@ -76,4 +82,5 @@
 
 .work-section {
   background-color: #001220;
+  height: 100vh;
 }
