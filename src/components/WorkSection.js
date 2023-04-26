@@ -6,12 +6,7 @@ import memory from '../images/memory-game.png'
 function WorkSection() {
   return (
     <div className='work-section'>
-      <h1 className='work-header'>My Work</h1>
-      <div className='work-container'>
-        <div className='work-card'>
-          <img src={resturant} alt='resturant page' className='screen-shots'></img>
-        </div>
-      </div>
+      <p>This is the work section</p>
     </div>
   )
 }
