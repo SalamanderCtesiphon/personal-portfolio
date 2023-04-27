@@ -13,8 +13,10 @@ function App() {
     <div className="App">
       <Sticky enabled={true} bottomBoundary={3600}><Header /></Sticky>
       <Hero />
-      <WorkSection />
       <Info />
+   
+      <WorkSection />
+      <div className='spacer'></div>
       <Footer />
     </div>
   );

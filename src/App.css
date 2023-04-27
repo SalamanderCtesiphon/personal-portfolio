@@ -10,7 +10,7 @@
   background-color: #001220;
   color: white;
   height: 7vh;
-  width: 100%;
+  width: auto;
   position: relative;
   display: flex;
   align-items: center;
@@ -102,6 +102,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 40px;
+  height: auto;
 }
 
 .portfolio-title {
@@ -116,8 +118,8 @@
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr) ) ;
+  justify-items: center;
 }
-
 
 .work-card {
   background-color: white;
@@ -126,8 +128,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 99%;
-  height: 700px;
+  width: 530px;
+  height: 600px;
 }
 
 .card-title {
@@ -154,10 +156,13 @@
 
 .info-section {
   height: 100vh;
+  padding: 20px;
+  padding-top: 160px;
 }
 
 .icon-container {
   height: 400px;
+  padding: 30px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -174,6 +179,11 @@
   width: 100px;
   height: auto;
   margin: 6px;
+}
+
+.spacer {
+  height: 60vh;
+  background-color: #001220;
 }
 
 .footer {
