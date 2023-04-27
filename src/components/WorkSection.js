@@ -8,12 +8,15 @@ function WorkSection() {
     <div className='work-section section'>
       <div className='work-card'>
         <img src={resturantPage} alt='resturant'></img>
+        <div className='work-text'>This is a link to the page</div>
       </div>
       <div className='work-card'>
         <img src={memoryGame} alt='memory game'></img>
+        <div className='work-text'>This is a link to the page</div>
       </div>
       <div className='work-card'>
         <img src={resumeApp} alt='resume app'></img>
+        <div className='work-text'>This is a link to the page</div>
       </div>
     </div>
   )
