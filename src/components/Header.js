@@ -4,9 +4,12 @@ import React from 'react'
 function Header() {
 
   return (
-    <div className='header section' id='myHeader'>
-      <h1>hi</h1>
+    <div className='header' id='myHeader'>
+     <div className='link-box'>
+      <a href='#' className='links'>contact</a>
+      <a href='#' className='links'>portfolio</a>
      </div>
+    </div>
   )
 }
 
