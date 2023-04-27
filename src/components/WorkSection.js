@@ -6,7 +6,7 @@ import resumeApp from '../images/resume-app.png'
 function WorkSection() {
   return (
     <div className='page' id='portfolio-anchor'>
-      <h1>Portfolio</h1>
+      <h1 className='portfolio-title'>Portfolio</h1>
       <div className='work-section section'>
         <div className='work-card'>
           <h1 className='card-title'>Resturant Page</h1>
