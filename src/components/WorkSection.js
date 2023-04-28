@@ -18,8 +18,8 @@ function WorkSection() {
           <div className='work-text'>
           <p className='description'>This is a single-page static informational site build using only vanilla javascript. It uses webpack for the build phase for performance optimization.</p>
           <span className='app-links'>
-            <a className='app-links'>LiveSite <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
-            <a className='app-links'>GitHub Repo <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
+            <a className='app-links' href='https://salamanderctesiphon.github.io/resturant-page-project/'>LiveSite <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
+            <a className='app-links' href='https://github.com/SalamanderCtesiphon/resturant-page-project'>GitHub Repo <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
           </span>
         </div>
         </div>
@@ -29,8 +29,8 @@ function WorkSection() {
           <div className='work-text'>
             <p className='description'>This app was built using reactJS. It's a simple memory card game. That reshuffles the cards after every selection.</p>
             <span className='app-links'>
-              <a className='app-links'>LiveSite <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
-              <a className='app-links'>GitHub Repo <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
+              <a className='app-links' href='https://salamanderctesiphon.github.io/memory-card-react-app/'>LiveSite <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
+              <a className='app-links' href='https://github.com/SalamanderCtesiphon/memory-card-react-app'>GitHub Repo <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
             </span>
           </div>
         </div>
@@ -40,8 +40,8 @@ function WorkSection() {
           <div className='work-text'>
             <p className='description'>Build your own resume quick and easy with this handy dandy miracle app. I promise you won't be disappointed.</p>
             <span className='app-links'>
-              <a className='app-links'>LiveSite <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
-              <a className='app-links'>GitHub Repo <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
+              <a className='app-links' href='https://salamanderctesiphon.github.io/resume-app/'>LiveSite <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
+              <a className='app-links' href='https://github.com/SalamanderCtesiphon/resume-app'>GitHub Repo <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
             </span>
           </div>
         </div>
@@ -51,8 +51,8 @@ function WorkSection() {
           <div className='work-text'>
           <p className='description'>This is a single-page static informational site build using only vanilla javascript. It uses webpack for the build phase for performance optimization.</p>
           <span className='app-links'>
-            <a className='app-links'>LiveSite <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
-            <a className='app-links'>GitHub Repo <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
+            <a className='app-links'href='https://github.com/SalamanderCtesiphon/resume-app'>LiveSite <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
+            <a className='app-links'href='https://github.com/SalamanderCtesiphon/resume-app'>GitHub Repo <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
           </span>
         </div>
         </div>
@@ -62,8 +62,8 @@ function WorkSection() {
           <div className='work-text'>
             <p className='description'>This app was built using reactJS. It's a simple memory card game. That reshuffles the cards after every selection.</p>
             <span className='app-links'>
-              <a className='app-links'>LiveSite <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
-              <a className='app-links'>GitHub Repo <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
+              <a className='app-links'href='https://github.com/SalamanderCtesiphon/resume-app'>LiveSite <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
+              <a className='app-links'href='https://github.com/SalamanderCtesiphon/resume-app'>GitHub Repo <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
             </span>
           </div>
         </div>
@@ -73,8 +73,8 @@ function WorkSection() {
           <div className='work-text'>
             <p className='description'>Build your own resume quick and easy with this handy dandy miracle app. I promise you won't be disappointed.</p>
             <span className='app-links'>
-              <a className='app-links'>LiveSite <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
-              <a className='app-links'>GitHub Repo <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
+              <a className='app-links'href='https://github.com/SalamanderCtesiphon/resume-app'>LiveSite <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
+              <a className='app-links'href='https://github.com/SalamanderCtesiphon/resume-app'>GitHub Repo <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
             </span>
           </div>
         </div>
