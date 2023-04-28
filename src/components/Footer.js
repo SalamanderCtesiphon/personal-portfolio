@@ -12,14 +12,14 @@ function Footer() {
       <p className='paragraph'>I am currently looking for opportunities, if you have a question or just want to chat, feel free to send me a message and I will get back to you!</p>
       <div className='form-box'>
         <div className='icon-holder'>
-          <img src={linked} alt='linked in' className='icon-img'></img>
-          <img src={twit} alt='twitter' className='icon-img'></img>
+          <a href='https://www.linkedin.com/in/shannon-brookshire-817577265/'><img src={linked} alt='linked in' className='footer-icon'  ></img></a>
+          <a href='https://twitter.com/Shannon99535365'><img src={twit} alt='twitter' className='footer-icon' ></img></a>
         </div>
         <ContactUs />
       </div>
       <div className='footer-line'>
-        <a href="https://github.com/SalamanderCtesiphon/" className="footer-link">Seamus Quixiote&#169;</a> 
-        <p>The Odin Project{date}</p>
+        <a href="https://github.com/SalamanderCtesiphon/" className="footer-link">Seamus Quixiote   &#169;   </a> 
+        <a href='https://www.theodinproject.com' className='footer-link'>The Odin Project   {date}</a>
       </div>
     </div>
   )
