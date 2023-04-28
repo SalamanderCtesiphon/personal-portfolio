@@ -10,7 +10,6 @@ import github from '../icons/github-original-wordmark.svg'
 import html from '../icons/html5-original-wordmark.svg'
 import javascript from '../icons/javascript-original.svg'
 import jest from '../icons/jest-plain.svg'
-import linked from '../icons/linkedin-original.svg'
 import linux from '../icons/linux-original.svg'
 import node from '../icons/nodejs-plain.svg'
 import npm from '../icons/npm-original-wordmark.svg'
@@ -22,9 +21,7 @@ function Info() {
     <div className='info-section'> 
       <h1>Introduction</h1>
       <h3>Hi! I'm Shannon</h3>
-      <p>I am a self-taught front-end web developer. I learned my skills by completeing the Odin Project, an on-line open-sourced curriculum curated by professinal web developers.</p>
-      <p>It required a signficant amout of grit and determination to complete the course. Along the way, I learned many valuable skills and concepts which I feel have prepared me for a carreer in web developement.</p>
-      <p>I have also developed a strong work ethic and a growing curiosity that motivates me tol learn more and improve my skills.</p>
+      <p className='paragraph'>Welcome to my profile! I am an enthusiastic and dedicated entry-level web developer with a passion for creating dynamic and user-friendly websites. With a solid foundation in HTML, CSS, and JavaScript, I am excited to apply my skills to bring innovative ideas to life. As a detail-oriented individual, I thrive in fast-paced environments and enjoy collaborating with cross-functional teams to deliver high-quality solutions. I am constantly learning and staying up-to-date with the latest web development technologies and trends to ensure I am providing cutting-edge solutions. I am committed to delivering efficient and effective web solutions that exceed client expectations. Let's collaborate and create exceptional web experiences together!</p>
       <h5>A few of the subjects that I have worked with:</h5>
       <div className='icon-container'>
         <img src={bable} alt='babel icon' className='icon-img'></img>
