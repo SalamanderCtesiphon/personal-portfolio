@@ -18,8 +18,8 @@ function Footer() {
         <ContactUs />
       </div>
       <div className='footer-line'>
-        <a href="https://github.com/SalamanderCtesiphon/" className="footer-link">Seamus Quixiote   &#169;   </a> 
-        <a href='https://www.theodinproject.com' className='footer-link'>The Odin Project   {date}</a>
+        <a href="https://github.com/SalamanderCtesiphon/" className="footer-link">Seamus Quixiote   &#169;   {date}</a> 
+     
       </div>
     </div>
   )
