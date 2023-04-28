@@ -113,7 +113,7 @@
   width: 98vw;
   height: auto;
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 80px;
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr) ) ;
   justify-items: center;
 }
@@ -127,6 +127,14 @@
   justify-content: space-between;
   width: 530px;
   height: 600px;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: .25s;
+}
+
+.work-card:hover {
+  transform: scale(1.05);
 }
 
 .card-title {
@@ -136,20 +144,33 @@
 .image {
   background-size: cover;
   width: 90%;
-  height: auto;
+  height: 85%;
   border: 1px solid black;
 }
 
 .work-text {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   width: 100%;
-  height: 60px;
+  height: 200px;
   background-color: rgba(60, 59, 59, 0.381);
   color: white;
   border: 3px solid black;
   border-radius: 4vh;
+}
+
+.description {
+  align-self: first baseline;
+  padding-left: 10px;
+  text-align: start;
+}
+
+.app-links {
+  align-self: self-end;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
 }
 
 .info-section {
@@ -196,6 +217,14 @@
   width: 75px;
   height: auto;
   margin: 6px;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: .25s;
+}
+
+.icon-img:hover {
+  transform: scale(1.3);
 }
 
 .spacer {
@@ -206,7 +235,7 @@
 .footer {
   height: 100vh;
   width: 100%;
-  background-color: #FA7268;
+  background-color: #f18078;
   color: black;
   display: flex;
   flex-direction: column;
@@ -258,5 +287,21 @@ textarea {
 .footer-line {
   display: flex;
   align-items: center;
+  padding-bottom: 20px;
+}
+
+.footer-icon {
+  width: 75px;
+  height: auto;
+  margin: 6px;
+  cursor: pointer;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: .25s;
+}
+
+.footer-icon:hover {
+  transform: scale(1.2);
 }
 
