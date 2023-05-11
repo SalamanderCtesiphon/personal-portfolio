@@ -5,6 +5,7 @@ import resumeApp from '../images/resume-app.png'
 import Icon from '@mdi/react';
 import { mdiArrowTopRightBoldOutline } from '@mdi/js';
 import fasionBoutique from '../images/fashion-boutique.png'
+import weatherApp from '../images/weather-app.png'
 
 
 
@@ -19,19 +20,19 @@ function WorkSection() {
           <div className='work-text'>
           <p className='description'>This is a basic e commerce website. That utilizes the context api for state management. It is a ReactJS application. Hosted on firebase.</p>
           <span className='app-links'>
-            <a className='app-links' href='https://e-commerce-clothing-store.web.app/'>LiveSite <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
-            <a className='app-links' href='https://github.com/SalamanderCtesiphon/fashion-boutique'>GitHub Repo <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
+            <a className='app-links' href='https://e-commerce-clothing-store.web.app/'><Icon path={mdiArrowTopRightBoldOutline} size={1} />LiveSite</a>
+            <a className='app-links' href='https://github.com/SalamanderCtesiphon/fashion-boutique'><Icon path={mdiArrowTopRightBoldOutline} size={1} />GitHub Repo</a>
           </span>
         </div>
         </div>
         <div className='work-card'>
-          <h1 className='card-title'>Memory Game</h1>
-          <img src={memoryGame} alt='memory game' className='image'></img>
+          <h2 className='card-title'>WEATHER APP</h2>
+          <img src={weatherApp} alt='memory game' className='image'></img>
           <div className='work-text'>
-            <p className='description'>This app was built using reactJS. It's a simple memory card game. That reshuffles the cards after every selection.</p>
+            <p className='description'>A simple weather and forcast application built with ReactJS. It uses asyynchronous javascript with api fetch requests to acquire the weather object.</p>
             <span className='app-links'>
-              <a className='app-links' href='https://salamanderctesiphon.github.io/memory-card-react-app/'>LiveSite <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
-              <a className='app-links' href='https://github.com/SalamanderCtesiphon/memory-card-react-app'>GitHub Repo <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
+              <a className='app-links' href='https://weather-app-f672a.web.app/'><Icon path={mdiArrowTopRightBoldOutline} size={1} />LiveSite</a>
+              <a className='app-links' href='https://github.com/SalamanderCtesiphon/responsive-weather-app'><Icon path={mdiArrowTopRightBoldOutline} size={1} />GitHub Repo</a>
             </span>
           </div>
         </div>
