@@ -3,8 +3,6 @@ import bable from '../icons/babel-original.svg'
 import bash from '../icons/bash-original.svg'
 import css from '../icons/css3-original-wordmark.svg'
 import firebase from '../icons/firebase-plain.svg'
-import firefox from '../icons/firefox-original.svg'
-import gimp from '../icons/gimp-original.svg'
 import git from '../icons/git-original.svg'
 import github from '../icons/github-original-wordmark.svg'
 import html from '../icons/html5-original-wordmark.svg'
@@ -15,6 +13,10 @@ import node from '../icons/nodejs-plain.svg'
 import npm from '../icons/npm-original-wordmark.svg'
 import reaction from '../icons/react-original.svg'
 import webpacker from '../icons/webpack-original.svg'
+import bootstrap from '../icons/bootstrap-original.svg'
+import redux from '../icons/redux-original.svg'
+import tailwind from '../icons/tailwindcss-plain.svg'
+import sass from '../icons/sass-original.svg'
 
 function Info() {
   return (
@@ -28,8 +30,11 @@ function Info() {
         <img src={bash} alt='bash icon' className='icon-img'></img>
         <img src={css} alt='css icon' className='icon-img'></img>
         <img src={firebase} alt='firebase icon' className='icon-img'></img>
-        <img src={firefox} alt='babel icon' className='icon-img'></img>
-        <img src={gimp} alt='gimp icon' className='icon-img'></img>
+        <img src={bootstrap} alt='firebase icon' className='icon-img'></img>
+        <img src={redux} alt='firebase icon' className='icon-img'></img>
+        <img src={tailwind} alt='firebase icon' className='icon-img'></img>
+        <img src={sass} alt='firebase icon' className='icon-img'></img>
+        
         <img src={git} alt='babel icon' className='icon-img' ></img>
         <img src={github} alt='bash icon' className='icon-img'id='git-icon'></img>
         <img src={html} alt='css icon' className='icon-img'></img>
