@@ -4,6 +4,7 @@ import memoryGame from '../images/memory-game.png'
 import resumeApp from '../images/resume-app.png'
 import Icon from '@mdi/react';
 import { mdiArrowTopRightBoldOutline } from '@mdi/js';
+import fasionBoutique from '../images/fashion-boutique.png'
 
 
 
@@ -13,13 +14,13 @@ function WorkSection() {
       <h1 className='portfolio-title'>Portfolio</h1>
       <div className='work-section section'>
         <div className='work-card'>
-          <h1 className='card-title'>Resturant Page</h1>
-          <img src={resturantPage} alt='resturant' className='image'></img>
+          <h2 className='card-title'>E COMMERCE WEBSITE</h2>
+          <img src={fasionBoutique} alt='resturant' className='image'></img>
           <div className='work-text'>
-          <p className='description'>This is a single-page static informational site build using only vanilla javascript. It uses webpack for the build phase for performance optimization.</p>
+          <p className='description'>This is a basic e commerce website. That utilizes the context api for state management. It is a ReactJS application. Hosted on firebase.</p>
           <span className='app-links'>
-            <a className='app-links' href='https://salamanderctesiphon.github.io/resturant-page-project/'>LiveSite <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
-            <a className='app-links' href='https://github.com/SalamanderCtesiphon/resturant-page-project'>GitHub Repo <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
+            <a className='app-links' href='https://e-commerce-clothing-store.web.app/'>LiveSite <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
+            <a className='app-links' href='https://github.com/SalamanderCtesiphon/fashion-boutique'>GitHub Repo <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
           </span>
         </div>
         </div>
