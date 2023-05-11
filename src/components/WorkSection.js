@@ -6,6 +6,7 @@ import Icon from '@mdi/react';
 import { mdiArrowTopRightBoldOutline } from '@mdi/js';
 import fasionBoutique from '../images/fashion-boutique.png'
 import weatherApp from '../images/weather-app.png'
+import openAi from "../images/open-ai-sum.png"
 
 
 
@@ -37,13 +38,13 @@ function WorkSection() {
           </div>
         </div>
         <div className='work-card'>
-          <h1 className='card-title'>Resume App</h1>
-          <img src={resumeApp} alt='resume app' className='image'></img>
+          <h2 className='card-title'>ARTICLE SUMMARIZER</h2>
+          <img src={openAi} alt='resume app' className='image'></img>
           <div className='work-text'>
-            <p className='description'>Build your own resume quick and easy with this handy dandy miracle app. I promise you won't be disappointed.</p>
+            <p className='description'>This application utilizes the Rapid API open AI ChapGPT4 engine to summarize news article and webpages. The site was built using Vite and deployed to firebase hosting.</p>
             <span className='app-links'>
-              <a className='app-links' href='https://salamanderctesiphon.github.io/resume-app/'>LiveSite <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
-              <a className='app-links' href='https://github.com/SalamanderCtesiphon/resume-app'>GitHub Repo <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
+              <a className='app-links' href='https://articlesummarizer-f0253.web.app/'><Icon path={mdiArrowTopRightBoldOutline} size={1} />LiveSite</a>
+              <a className='app-links' href='https://github.com/SalamanderCtesiphon/open-ai-article-summarizer'><Icon path={mdiArrowTopRightBoldOutline} size={1} />GitHub Repo</a>
             </span>
           </div>
         </div>
