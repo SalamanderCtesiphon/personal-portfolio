@@ -135,6 +135,12 @@
 
 }
 
+@media (max-width: 600px) {
+  .work-card {
+    width: 400px;
+  }
+}
+
 .work-card:hover {
   transform: scale(1.02);
   box-shadow: 5px 2px 20px 2px #ffffff82;
@@ -216,6 +222,12 @@
   justify-content: space-evenly;
   overflow: scroll;
   margin-bottom: 200px;
+}
+
+@media (max-width: 600px) {
+  .icon-container {
+    width: 400px;
+  }
 }
 
 #git-icon {
