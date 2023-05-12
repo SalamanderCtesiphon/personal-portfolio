@@ -41,7 +41,7 @@ function WorkSection() {
           <h2 className='card-title'>ARTICLE SUMMARIZER</h2>
           <img src={openAi} alt='resume app' className='image'></img>
           <div className='work-text'>
-            <p className='description'>This application utilizes the Rapid API open AI ChapGPT4 engine to summarize news article and webpages. The site was built using Vite and deployed to firebase hosting.</p>
+            <p className='description'>This application utilizes the Rapid API open AI ChapGPT4 engine to summarize news articles and webpages. The site was built using Vite and deployed to firebase hosting.</p>
             <span className='app-links'>
               <a className='app-links' href='https://articlesummarizer-f0253.web.app/'><Icon path={mdiArrowTopRightBoldOutline} size={1} />LiveSite</a>
               <a className='app-links' href='https://github.com/SalamanderCtesiphon/open-ai-article-summarizer'><Icon path={mdiArrowTopRightBoldOutline} size={1} />GitHub Repo</a>
