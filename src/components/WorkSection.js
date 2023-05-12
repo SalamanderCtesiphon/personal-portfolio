@@ -49,35 +49,35 @@ function WorkSection() {
           </div>
         </div>
         <div className='work-card'>
-          <h1 className='card-title'>Resturant Page</h1>
+          <h2 className='card-title'>RESTURANT PAGE</h2>
           <img src={resturantPage} alt='resturant' className='image'></img>
           <div className='work-text'>
           <p className='description'>This is a single-page static informational site build using only vanilla javascript. It uses webpack for the build phase for performance optimization.</p>
           <span className='app-links'>
-            <a className='app-links'href='https://github.com/SalamanderCtesiphon/resume-app'><Icon path={mdiArrowTopRightBoldOutline} size={1} />LiveSite</a>
-            <a className='app-links'href='https://github.com/SalamanderCtesiphon/resume-app'><Icon path={mdiArrowTopRightBoldOutline} size={1} />GitHub Repo</a>
+            <a className='app-links'href='https://resturant-page-bc51a.web.app/'><Icon path={mdiArrowTopRightBoldOutline} size={1} />LiveSite</a>
+            <a className='app-links'href='https://github.com/SalamanderCtesiphon/resturant-page-project'><Icon path={mdiArrowTopRightBoldOutline} size={1} />GitHub Repo</a>
           </span>
         </div>
         </div>
         <div className='work-card'>
-          <h1 className='card-title'>Memory Game</h1>
+          <h2 className='card-title'>MEMORY GAME</h2>
           <img src={memoryGame} alt='memory game' className='image'></img>
           <div className='work-text'>
             <p className='description'>This app was built using reactJS. It's a simple memory card game. That reshuffles the cards after every selection.</p>
             <span className='app-links'>
-              <a className='app-links'href='https://github.com/SalamanderCtesiphon/resume-app'><Icon path={mdiArrowTopRightBoldOutline} size={1} />LiveSite</a>
-              <a className='app-links'href='https://github.com/SalamanderCtesiphon/resume-app'><Icon path={mdiArrowTopRightBoldOutline} size={1} />GitHub Repo</a>
+              <a className='app-links'href='https://salamanderctesiphon.github.io/memory-card-react-app/'><Icon path={mdiArrowTopRightBoldOutline} size={1} />LiveSite</a>
+              <a className='app-links'href='https://github.com/SalamanderCtesiphon/memory-card-react-app'><Icon path={mdiArrowTopRightBoldOutline} size={1} />GitHub Repo</a>
             </span>
           </div>
         </div>
         <div className='work-card'>
-          <h1 className='card-title'>Resume App</h1>
+          <h2 className='card-title'>RESUME APP</h2>
           <img src={resumeApp} alt='resume app' className='image'></img>
           <div className='work-text'>
             <p className='description'>Build your own resume quick and easy with this handy dandy miracle app. I promise you won't be disappointed.</p>
             <span className='app-links'>
-              <a className='app-links'href='https://github.com/SalamanderCtesiphon/resume-app'><Icon path={mdiArrowTopRightBoldOutline} size={1} />LiveSite</a>
-              <a className='app-links'href='https://github.com/SalamanderCtesiphon/resume-app'><Icon path={mdiArrowTopRightBoldOutline} size={1} />GitHub Repo <Icon path={mdiArrowTopRightBoldOutline} size={1} /></a>
+              <a className='app-links'href='https://salamanderctesiphon.github.io/resume-app/'><Icon path={mdiArrowTopRightBoldOutline} size={1} />LiveSite</a>
+              <a className='app-links'href='https://github.com/SalamanderCtesiphon/resume-app'><Icon path={mdiArrowTopRightBoldOutline} size={1} />GitHub Repo</a>
             </span>
           </div>
         </div>
