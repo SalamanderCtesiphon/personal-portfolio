@@ -57,21 +57,21 @@
   height: auto;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .title-container {
-    width: 300px;
+    width: 85vw;
     
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .title-container {
-    width: 300px;
+    width: 85vw;
     
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .hero-text {
     font-size: 28px;
     padding-left: 70px;
@@ -129,8 +129,8 @@
   width: 98vw;
   height: auto;
   display: grid;
-  grid-gap: 80px;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr) ) ;
+  grid-gap: 10vw;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr) ) ;
   justify-items: center;
 }
 
@@ -153,7 +153,6 @@
 @media (max-width: 600px) {
   .work-card {
     width: 85vw;
-    margin-left: -50px;
   }
 }
 
@@ -284,7 +283,7 @@
 
 .form-box {
   height: 20vh;
-  width: 100;
+  width: auto;
   display: flex;
   justify-content: center;
   
