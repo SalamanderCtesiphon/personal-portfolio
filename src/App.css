@@ -150,10 +150,10 @@
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .work-card {
-    width: 300px;
-    margin-left: -100px;
+    width: 85vw;
+    margin-left: -50px;
   }
 }
 
@@ -240,7 +240,7 @@
   margin-bottom: 200px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .icon-container {
     width: 300px;
   }
