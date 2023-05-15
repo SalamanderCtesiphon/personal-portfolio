@@ -271,7 +271,7 @@
 }
 
 .footer {
-  height: 100vh;
+  height: 170vh;
   width: 100vw;
   background-color: #f18078;
   color: black;
@@ -282,10 +282,11 @@
 }
 
 .form-box {
-  height: 20vh;
+  height: 400px;
   width: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
   
 }
 
@@ -327,6 +328,7 @@ textarea {
   display: flex;
   align-items: center;
   padding-bottom: 20px;
+  margin-top: 14vh;
 }
 
 .footer-icon {
