@@ -271,7 +271,7 @@
 }
 
 .footer {
-  height: 170vh;
+  height: 100vh;
   width: 100vw;
   background-color: #f18078;
   color: black;
@@ -283,17 +283,15 @@
 
 .form-box {
   height: 400px;
-  width: auto;
+  width: 25vw;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   
 }
 
 .icon-holder {
   height: 20vh;
-  margin-right: 20px;
-  padding-right: 20px;
   display: flex;
   justify-content: space-around;
 }
@@ -315,7 +313,7 @@
 }
 
 .footer-icon {
-  width: 50px;
+  width: 75px;
   height: auto;
   margin: 6px;
   cursor: pointer;
