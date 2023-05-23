@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      <Sticky enabled={true} bottomBoundary={3600}><Header /></Sticky>
+      <Sticky enabled={true} bottomBoundary={3600} innerZ={6}><Header /></Sticky>
       <Hero />
       <Info />
    
