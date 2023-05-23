@@ -12,7 +12,6 @@ function Footer() {
       <div className='form-box'>
         <a href='https://www.linkedin.com/in/shannon-brookshire-817577265/'><img src={linked} alt='linked in' className='footer-icon'  ></img></a>
         <a href='https://twitter.com/Shannon99535365'><img src={twit} alt='twitter' className='footer-icon' ></img></a>
-       
       </div>
       <div className='footer-line'>
         <a href="https://github.com/SalamanderCtesiphon/" className="footer-link">Seamus Quixiote   &#169;   {date}</a> 
