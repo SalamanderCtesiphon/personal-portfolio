@@ -7,6 +7,7 @@
 }
 
 .header {
+  min-height: 70px;
   background-color: #001a2e;
   color: white;
   width: 100vw;
@@ -14,10 +15,9 @@
 }
 
 .link-box {
-  position: relative;
-  width: 90%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 0 10vw;
 }
 
 .links {
@@ -234,20 +234,28 @@
   font-size: 2em;
 }
 
-.icon-container {
-  width: 90vw;
-  height: 200px;
-  padding: 30px;
+.container {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  overflow: scroll;
-  margin-bottom: 200px;
+  justify-content: center;
+}
+
+.icon-container {
+  width: 95vw;
+  height: 70vh;
+  height: auto;
+  list-style: none;
+  display: grid;
+  grid-gap: 1vw;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
+  
 }
 
 @media (max-width: 600px) {
   .icon-container {
     width: 300px;
+    margin-left: -9vw;
   }
 }
 
@@ -272,13 +280,14 @@
 }
 
 .spacer {
-  height: 60vh;
+  height: 30vh;
   background-color: #001220;
 }
 
 .footer {
-  height: 100vh;
+  height: 103vh;
   width: 100vw;
+  padding-top: 15vh;
   background-color: #f18078;
   color: black;
   display: flex;
@@ -288,8 +297,6 @@
 }
 
 .form-box {
-  height: 400px;
-  width: 25vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -297,7 +304,6 @@
 }
 
 .icon-holder {
-  height: 20vh;
   display: flex;
   justify-content: space-around;
 }
