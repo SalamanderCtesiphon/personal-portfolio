@@ -8,7 +8,7 @@
 }
 
 .header {
-  background-color: #001f36;
+  background-color: #001a2e;
   color: white;
   width: 100vw;
   height: 7vh;
@@ -16,7 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: -1;
+  z-index: 10;
 }
 
 .link-box {
@@ -27,18 +27,28 @@
 }
 
 .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
+  padding: 1.5em;
   color: rgba(255, 255, 255, 0.446);
 }
 
 .links:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
+  padding: 1.5em;
+  border-bottom: 1px solid white;
 }
 
 #hero-background {
   object-fit: cover;
   height: 95vh;
   width: 100%;
+  z-index: auto;
 }
 
 .hero-text {
@@ -47,6 +57,7 @@
   justify-content: center;
   align-items: center;
   letter-spacing: 8px;
+  z-index: auto;
 }
 
 .title-container {
@@ -147,7 +158,7 @@
   transition-duration: 1s;
   transition-timing-function: ease-out;
   transition-delay: .25s;
-
+  z-index: auto;
 }
 
 @media (max-width: 600px) {
@@ -159,6 +170,7 @@
 .work-card:hover {
   transform: scale(1.02);
   box-shadow: 5px 2px 20px 2px #ffffff82;
+  z-index: auto;
 }
 
 .card-title {
