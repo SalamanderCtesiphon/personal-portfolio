@@ -14,7 +14,7 @@ function App() {
       <Sticky enabled={true} bottomBoundary={3600} innerZ={6}><Header /></Sticky>
       <Hero />
       <Info />
-   
+      <div className='spacer'></div>
       <WorkSection />
       <div className='spacer'></div>
       <Footer />
