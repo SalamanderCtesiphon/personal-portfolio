@@ -14,9 +14,7 @@ import npm from '../icons/npm-original-wordmark.svg'
 import reaction from '../icons/react-original.svg'
 import webpacker from '../icons/webpack-original.svg'
 import bootstrap from '../icons/bootstrap-original.svg'
-import redux from '../icons/redux-original.svg'
 import tailwind from '../icons/tailwindcss-plain.svg'
-import sass from '../icons/sass-original.svg'
 
 function Info() {
   return (
@@ -25,27 +23,24 @@ function Info() {
       <p className='paragraph'>Hi! I'm Shannon</p>
       <p className='paragraph'>Welcome to my portfolio! I am an enthusiastic and dedicated entry-level web developer with a passion for creating dynamic and user-friendly websites. With a solid foundation in HTML, CSS, and JavaScript, I am excited to apply my skills to bring innovative ideas to life. As a detail-oriented individual, I thrive in fast-paced environments and enjoy collaborating with cross-functional teams to deliver high-quality solutions. I am constantly learning and staying up-to-date with the latest web development technologies and trends to ensure I am providing cutting-edge solutions.</p>
       <h5 className='paragraph'>A few of the technologies that I have worked with :</h5>
-      <div className='icon-container'>
-        <img src={bable} alt='babel icon' className='icon-img'></img>
-        <img src={bash} alt='bash icon' className='icon-img'></img>
-        <img src={css} alt='css icon' className='icon-img'></img>
-        <img src={firebase} alt='firebase icon' className='icon-img'></img>
-        <img src={bootstrap} alt='firebase icon' className='icon-img'></img>
-        <img src={redux} alt='firebase icon' className='icon-img'></img>
-        <img src={tailwind} alt='firebase icon' className='icon-img'></img>
-        <img src={sass} alt='firebase icon' className='icon-img'></img>
-        
-        <img src={git} alt='babel icon' className='icon-img' ></img>
-        <img src={github} alt='bash icon' className='icon-img'id='git-icon'></img>
-        <img src={html} alt='css icon' className='icon-img'></img>
-        <img src={javascript} alt='firebase icon' className='icon-img'></img>
-        <img src={jest} alt='babel icon' className='icon-img'></img>
-        <img src={linux} alt='gimp icon' className='icon-img'></img>
-        <img src={node} alt='css icon' className='icon-img'></img>
-        <img src={npm} alt='firebase icon' className='icon-img'></img>
-        <img src={reaction} alt='babel icon' className='icon-img'></img>
-        <img src={webpacker} alt='gimp icon' className='icon-img'></img>
-      </div>
+      <ul className='icon-container'>
+        <li><img src={bable} alt='babel icon' className='icon-img'></img></li>
+        <li><img src={bash} alt='bash icon' className='icon-img'></img></li>
+        <li><img src={css} alt='css icon' className='icon-img'></img></li>
+        <li><img src={firebase} alt='firebase icon' className='icon-img'></img></li>
+        <li><img src={bootstrap} alt='firebase icon' className='icon-img'></img></li>
+        <li><img src={tailwind} alt='firebase icon' className='icon-img'></img></li>
+        <li><img src={git} alt='babel icon' className='icon-img' ></img></li>
+        <li><img src={github} alt='bash icon' className='icon-img'id='git-icon'></img></li>
+        <li><img src={html} alt='css icon' className='icon-img'></img></li>
+        <li><img src={javascript} alt='firebase icon' className='icon-img'></img></li>
+        <li><img src={jest} alt='babel icon' className='icon-img'></img></li>
+        <li><img src={linux} alt='gimp icon' className='icon-img'></img></li>
+        <li><img src={node} alt='css icon' className='icon-img'></img></li>
+        <li><img src={npm} alt='firebase icon' className='icon-img'></img></li>
+        <li><img src={reaction} alt='babel icon' className='icon-img'></img></li>
+        <li><img src={webpacker} alt='gimp icon' className='icon-img'></img></li>
+      </ul>
     </div>
   )
 }
