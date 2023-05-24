@@ -1,1 +1,3 @@
 Personal portfolio project
+
+This Project was built from scratch using ReactJS front-end library. It is a web developer portfolio website. It uses react-stickynode for the tool-bar. It is a fully responsive informational site, that is hosting on firebase webhosting. The application takes advantage of the natural resposiveness of CSS. It also utilizes media queries for smaller screens. Simple animations a used to make the site more engaging to the user.
