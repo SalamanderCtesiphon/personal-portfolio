@@ -84,7 +84,7 @@
 }
 
 #first-name {
-  margin-left: -10vw;
+  margin-left: -15vw;
   margin-bottom: -10vh;
 }
 
@@ -95,13 +95,13 @@
 }
 
 #last-name {
-  margin-left: 3vw;
+  margin-left: -3.5vw;
   margin-bottom: -10vh;
 }
 
 #title-one {
   margin-bottom: -10vh;
-  margin-left: -8vw;
+  margin-left: -7.5vw;
 }
 
 @media (max-width: 600px) {
